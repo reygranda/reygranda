@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav, Col, Row } from 'react-bootstrap/';
 import Logo from './Logo.png';
+import github from './Github.svg';
+import linkedin from './LinkedIn.svg';
 
 export default function App() {
   return (
@@ -41,8 +43,40 @@ export default function App() {
             <h1 className="gradient">Software Engineer</h1>
           </Col>
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
+
         <Row>
-          <Col></Col>
+          <Col className="col-2">
+            <span className="btn-links">
+              <img
+                src={github}
+                className="d-inline-block"
+                alt="Rey Granda"
+              ></img>
+              <a href="https://github.com/reygranda" target="_blank">
+                Github
+              </a>
+            </span>
+          </Col>
+          <Col>
+            <span className="btn-links">
+              <img
+                src={linkedin}
+                className="d-inline-block"
+                alt="Rey Granda"
+              ></img>
+              <a href="https://linkedin.com/in/reygranda" target="_blank">
+                LinkedIn
+              </a>
+            </span>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
           <Col></Col>
         </Row>
       </Container>
