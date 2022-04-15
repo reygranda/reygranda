@@ -1,0 +1,32 @@
+#root {
+    background-color: #212121;
+}
+
+.nav-links {
+    font-weight: 700;
+    text-decoration: underline solid #C8C8C8 5px !important;
+    /* text-decoration-color: #C8C8C8;
+    text-decoration-style: solid; */
+    text-underline-offset: 15px;
+    color: #fff !important;
+    margin-left: 5rem;
+}
+
+.hero {
+    background-color: #212121;
+    min-height: 90vh;
+}
+.name {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+}
+.gradient {
+    background: linear-gradient(90deg,#D136FF,#0099FF);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
